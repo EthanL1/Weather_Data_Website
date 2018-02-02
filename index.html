@@ -11,12 +11,12 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Homepage</title>
 </head>
 <body>
     <div id="app" class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-            <a class="navbar-brand" href="homepage.html" style="padding-right:30%">WeatherDataProject</a>
+            <a class="navbar-brand" href="index.html" style="padding-right:30%">WeatherDataProject</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
         <div class="row">
         <div class="col-md-6" style="background-color:rgba(176, 179, 166, 0.26); display: inline-block;padding-bottom:150px;">
                 <H1>Summary: Latitude vs. X </H1>
-                <img class='wrap' src="CloudinessVsLat_2018-01-28.png" align=left height="50%" width='50%'>
+                <img class='wrap' src="CloudinessVsLat_2018-01-28.png" align=left height="50%" width='50%' style='margin-right: 10px;'>
                 <p>The Purpose of this project was to analyze how weather changes as you get closer to the equator.
                     To accomplish this analysis, we first pulled data from the OpenWeatherMap API using python in which 
                     we analyzed over 500 cities.<br>
@@ -63,21 +63,19 @@
                 
                 
                 
-                <p>It appears that as you get closer to the equator the less windy it gets. When you get further away from the equator it get's more windy </p>    
+                
                 </div>
         <div class='col' style="display: inline-block;background-color:rgba(176, 179, 166, 0.26);margin-left: 50px;margin-bottom: -100;margin-bottom: 400px">
                 <H1 style='color:black'>Visualizations <hr></H1>
             <div class="row">
-                <div class='col-md-6'><img src='CloudVsLat on 2018-01-28.png'height="90%" width='70%' style='margin-left:50px;'></div>
-                <div class='col-md-6'><img src='CloudinessVsLat_2018-01-28.png'height="90%" width='70%'></div>
-            </div>
-       
-        <div class='row' style="inline-block;">
-            <div class='col-md-6'><img src='TempVsLats 2018-01-28.png'height="90%" width='70%'style='margin-left:50px;'></div>
-            <div class='col-md-6'><img src='HumVsLat 2018-01-28.png'height="90%" width='70%'></div>    
+                <div class='col-xs-3 col-md-6'><img src='CloudVsLat on 2018-01-28.png'height="90%" width='70%' style='margin-left:50px;'></div>
+                <div class='col-xs-3 col-md-6'><img src='CloudinessVsLat_2018-01-28.png'height="90%" width='70%'></div>
+            
+            <div class='col-xs-3 col-md-6'><img src='TempVsLats 2018-01-28.png'height="90%" width='70%'style='margin-left:50px;'></div>
+            <div class='col-xs-3 col-md-6'><img src='HumVsLat 2018-01-28.png'height="90%" width='70%'></div>    
         </div>
     </div>
-    </div>
+    
 </div>
 
     
